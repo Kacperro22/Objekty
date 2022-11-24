@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         Hero batman = new Hero("Tom", "can fly", 10, 1.5, true);
-        System.out.println(batman.getNick());
+        System.out.println(batman.getName());
         System.out.println(batman.getAbilities());
         System.out.println(batman.getLevel());
         System.out.println(batman.getDamage());
@@ -11,7 +11,7 @@ public class Main {
         System.out.println("__________________");
 
         batman.setName("John");
-        System.out.println(batman.getNick());
+        System.out.println(batman.getName());
 
         batman.setAbilities("can run");
         System.out.println(batman.getAbilities());
@@ -22,6 +22,7 @@ public class Main {
         batman.setFame(false);
         System.out.println(batman.getFame());
 
-
+        System.out.println("__________________");
+        System.out.println(batman.toString());
     }
 }

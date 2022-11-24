@@ -52,6 +52,17 @@ public class Hero {
     public void setFame(boolean fame) {
         this.fame = fame;
     }
+
+    @Override
+    public String toString() {
+        return "Hero{" +
+                "name='" + name + '\'' +
+                ", abilities='" + abilities + '\'' +
+                ", level=" + level +
+                ", damage=" + damage +
+                ", fame=" + fame +
+                '}';
+    }
 }
 
 
