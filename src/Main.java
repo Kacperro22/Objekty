@@ -24,5 +24,10 @@ public class Main {
 
         System.out.println("__________________");
         System.out.println(batman.toString());
+
+        System.out.println("__________________");
+        System.out.println(batman.damagePerSec());
+
+
     }
 }

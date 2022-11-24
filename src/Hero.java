@@ -63,6 +63,10 @@ public class Hero {
                 ", fame=" + fame +
                 '}';
     }
+
+    public double damagePerSec(){
+        return (damage*5);
+    }
 }
 
 
